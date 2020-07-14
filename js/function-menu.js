@@ -1,4 +1,4 @@
 $(document).ready(function()) {
 
-    $('#conteudo').load('src/disciplinas/visao/list-disciplinas')
+    $('#conteudo').load('src/disciplinas/visão/list-disciplinas')
 }
