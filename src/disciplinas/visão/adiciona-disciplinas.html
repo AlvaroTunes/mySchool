@@ -1,17 +1,19 @@
-<div class="row justfy-content-center">
+<div class="row justify-content-center">
     <div class="col-10 col-md-5">
         <h2 class="text-center text-primary">Cadastro de disciplinas</h2>
-        <form id="adiciona-disciplinas">
-
-            <div class="form-group">
-                <label>Nome do professor</label>
-                <input type="text" name="professor" id="professor" class="form-control" maxlength="150">
-                <div class="form-group row justify-content-end">
-                    <div class="col-8 col-md-6"></div>
-                    <button class="btn btn-sucsess btn-block">S<i class="mdi mdi-content-save">alvar alterações</button>
-                </div>
+        <form action="src/disciplinas/modelo/adiciona-disciplinas.php" method="POST" id="adiciona-disciplinas">
+            <div class="form group">
+                <label>Nome da disciplina</label>
+                <input type="text" name="disciplina" id="disciplina" class="form-center" maxlength="100">
             </div>
-        </form>
+            <label>Nome do professor</label>
+            <input type="text" name="professor" id="professor" class="form-center" maxlength="150">
     </div>
-
+    <div class="form-grow roe justify-content-end">
+        <div class="col-8 col-md-6">
+            <button type="submit" class="btn btn-sucess btn-block"><i class="mdi mdi-content-save"></i>Salvar Alterações</button>
+        </div>
+    </div>
+    </form>
+</div>
 </div>
